@@ -29,6 +29,11 @@ description: 依據 2027 最新英文履歷整理。
 1. Li-Syun Hsiung, Jun-Kai Tu, Kuan-Wu Chu, et al. (2025). *Syn3DTxt: Embedding 3D Cues for Scene Text Generation.* CVPR Workshops (SyntaGen).
 2. Kuan-Wu Chu, Joanna Qiong-Yue Chen, et al. (2024). *Social Temperature: Real-Time Social Activity Monitoring Based on Deep Learning Methods.* IEEE ICS.
 
+## 專利
+
+陳昭伶、陳芎月、**朱冠伍**、蘇胤翔，〈社交活躍度檢測系統以及方法〉，台灣發明專利 **I912159**，2026 年 1 月；美國專利申請中（U.S. patent pending）。  
+[Google Patents](https://patents.google.com/patent/TWI912159B/en) · [政大人工智慧跨域研究中心](https://iaic.nccu.edu.tw/achievements?c=2)
+
 ## 技能
 
 **Languages & Tools:** Python, C++, PyTorch, TensorRT, TRT-LLM, Linux, Git, Redis, Jetson Orin  
