@@ -32,5 +32,6 @@ latest_posts:
 - 在台積電將 Job Dispatch / Queue 異常偵測系統部署至 production；履歷記錄的測試結果為 **97% detection accuracy**，且沒有 false-positive alert。
 - 使用 TensorRT FP16 最佳化 Jetson Orin 上的 RF-DETR，達到 **7.50× end-to-end throughput**，並降低 **75.2% latency**，同時維持近乎一致的偵測準確度。
 - 論文成果包含 **CVPR Workshops 2025（SyntaGen）**與 **IEEE ICS 2024**。
+- 為台灣發明專利 **I912159〈社交活躍度檢測系統以及方法〉**共同發明人。[查看專利](https://patents.google.com/patent/TWI912159B/en)
 
 [查看完整履歷]({{ '/zh-tw/cv/' | relative_url }})
