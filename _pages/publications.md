@@ -5,8 +5,10 @@ page_id: publications
 lang: en-us
 permalink: /publications/
 translation_url: /zh-tw/publications/
-description: Selected publications.
+description: Selected publications and patents.
 ---
+
+## Publications
 
 ### 2025
 
@@ -23,3 +25,14 @@ Li-Syun Hsiung, Jun-Kai Tu, **Kuan-Wu Chu**, et al.
 *IEEE International Computer Symposium (ICS) 2024.*
 
 [DOI](https://doi.org/10.1109/ICS64339.2024.00049)
+
+## Patents
+
+### 2026
+
+**Social Activity Level Detection System and Method**  
+L. C. Chen, Q. Y. Chen, **K.-W. Chu**, and Y.-H. Su  
+Taiwan Invention Patent **I912159** · Application **TW114108764A** · Granted Jan. 11, 2026  
+Assignee: National Chengchi University · U.S. patent pending.
+
+[Google Patents](https://patents.google.com/patent/TWI912159B/en) · [NCCU AI Center](https://iaic.nccu.edu.tw/achievements?c=2) · [Future Media Lab](https://www.futuremedialab.tw/project)
