@@ -1,20 +1,20 @@
 ---
 layout: page
-title: Publications
+title: 論文
 page_id: publications
-lang: en-us
-permalink: /publications/
-translation_url: /zh-tw/publications/
-description: Selected publications.
+lang: zh-tw
+permalink: /zh-tw/publications/
+translation_url: /publications/
+description: 研究論文與發表成果。
 ---
 
 ### 2025
 
 **Syn3DTxt: Embedding 3D Cues for Scene Text Generation**  
 Li-Syun Hsiung, Jun-Kai Tu, **Kuan-Wu Chu**, et al.  
-*SyntaGen Workshop @ CVPR 2025.*
+*CVPR 2025 SyntaGen Workshop.*
 
-[Paper](https://openaccess.thecvf.com/content/CVPR2025W/SyntaGen/html/Hsiung_Syn3DTxt_Embedding_3D_Cues_for_Scene_Text_Generation_CVPRW_2025_paper.html)
+[論文頁面](https://openaccess.thecvf.com/content/CVPR2025W/SyntaGen/html/Hsiung_Syn3DTxt_Embedding_3D_Cues_for_Scene_Text_Generation_CVPRW_2025_paper.html)
 
 ### 2024
 

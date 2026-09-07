@@ -1,0 +1,23 @@
+# Personal overrides for Kuan-Wu Chu's bilingual academic portfolio.
+# Loaded after _config.yml in the deployment workflow.
+title: blank
+first_name: Kuan-Wu
+middle_name:
+last_name: Chu
+contact_note: >-
+  Open to research and engineering opportunities in multimodal AI, computer vision,
+  AI systems, and efficient model deployment.
+description: >-
+  Kuan-Wu Chu — M.S. candidate in Computer Science at National Chengchi University,
+  working on multimodal AI, image restoration, computer vision, AI systems, and anomaly detection.
+keywords: AI, computer vision, multimodal AI, image restoration, AI agents, anomaly detection, TensorRT
+lang: en
+url: https://kuanwuchu.github.io
+baseurl: /kuanwuchu
+max_width: 1000px
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
+bib_search: false
+enable_darkmode: true
+enable_navbar_social: false
