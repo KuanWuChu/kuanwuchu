@@ -29,6 +29,11 @@ Focus: multimodal AI, image restoration, computer vision
 1. Li-Syun Hsiung, Jun-Kai Tu, Kuan-Wu Chu, et al. (2025). *Syn3DTxt: Embedding 3D Cues for Scene Text Generation.* CVPR Workshops (SyntaGen).
 2. Kuan-Wu Chu, Joanna Qiong-Yue Chen, et al. (2024). *Social Temperature: Real-Time Social Activity Monitoring Based on Deep Learning Methods.* IEEE ICS.
 
+## Patent
+
+L. C. Chen, Q. Y. Chen, **K.-W. Chu**, and Y.-H. Su, “Social Activity Level Detection System and Method,” Taiwan Invention Patent **I912159**, Jan. 2026. U.S. patent pending.  
+[Google Patents](https://patents.google.com/patent/TWI912159B/en) · [NCCU AI Center](https://iaic.nccu.edu.tw/achievements?c=2)
+
 ## Skills
 
 **Languages & Tools:** Python, C++, PyTorch, TensorRT, TRT-LLM, Linux, Git, Redis, Jetson Orin  
