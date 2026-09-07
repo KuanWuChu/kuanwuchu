@@ -31,5 +31,6 @@ I enjoy turning research ideas into systems that actually run. My recent experie
 - Deployed a job-dispatching / queue anomaly detection system to production at TSMC, reaching **97% detection accuracy** with no false-positive alerts on the reported test set.
 - Optimized RF-DETR on Jetson Orin with TensorRT FP16, achieving **7.50× end-to-end throughput** and **75.2% lower latency** while preserving detection accuracy.
 - Published work at **CVPR Workshops 2025 (SyntaGen)** and **IEEE ICS 2024**.
+- Co-inventor of **Taiwan Invention Patent I912159**, *Social Activity Level Detection System and Method*. [Patent record](https://patents.google.com/patent/TWI912159B/en)
 
 [View my full CV]({{ '/cv/' | relative_url }})
