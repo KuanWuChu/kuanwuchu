@@ -15,16 +15,23 @@ layout: default
 
   <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <div
+        class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}"
+        style="width: 280px; max-width: 100%;"
+      >
         {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
-          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
+          {% assign profile_image_path = page.profile.image | prepend: '/assets/img/' %}
+          <img
+            src="{{ profile_image_path | relative_url }}?v=20260915"
+            class="img-fluid z-depth-1 {% if page.profile.image_circular %}rounded-circle{% else %}rounded{% endif %}"
+            width="280"
+            height="auto"
+            alt="Kuan-Wu Chu"
+            loading="eager"
+            fetchpriority="high"
+            decoding="sync"
+            style="width: 100%; height: auto; object-fit: contain;"
+          >
         {% endif %}
         {% if page.profile.more_info %}<div class="more-info">{{ page.profile.more_info }}</div>{% endif %}
       </div>
