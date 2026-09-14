@@ -1,7 +1,7 @@
 <header>
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.lang == 'zh-tw' %}
+      {% if page.lang contains 'zh' %}
         {% assign home_url = '/zh-tw/' %}
         {% assign experience_url = '/zh-tw/experience/' %}
         {% assign publications_url = '/zh-tw/publications/' %}
@@ -26,7 +26,7 @@
       {% endif %}
 
       <a class="navbar-brand title font-weight-lighter" href="{{ home_url | relative_url }}">
-        <span class="font-weight-bold">Kuan-Wu</span> Chu
+        <span class="font-weight-bold">Kuan-Wu Chu</span>
       </a>
 
       <button

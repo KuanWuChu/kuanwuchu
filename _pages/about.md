@@ -5,8 +5,11 @@ page_id: about
 lang: en-us
 permalink: /
 translation_url: /zh-tw/
-subtitle: M.S. candidate in Computer Science at NCCU · Multimodal AI · Computer Vision · AI Systems
-profile: false
+subtitle: M.S. Candidate in Computer Science at NCCU · Multimodal AI · Computer Vision · AI Systems
+profile:
+  align: right
+  image: kuanwu_chu_graduation.jpg
+  image_circular: false
 selected_papers: false
 social: true
 announcements:
@@ -15,22 +18,22 @@ latest_posts:
   enabled: false
 ---
 
-I am **Kuan-Wu Chu**, an M.S. candidate in Computer Science at **National Chengchi University (NCCU)**, expected to graduate in **June 2027**. My work spans **multimodal AI, computer vision, image restoration, AI agents, efficient inference, and anomaly detection**.
+I am **Kuan-Wu Chu**, an M.S. candidate in Computer Science at **National Chengchi University (NCCU)**, expected to graduate in **June 2027**. My work sits at the intersection of **multimodal AI, computer vision, image restoration, AI systems, and anomaly detection**.
 
-I enjoy turning research ideas into systems that actually run. My recent experience includes production anomaly detection at **TSMC**, browser-automation agents at **PEGATRON**, and real-time vision / TensorRT deployment at **ITRI**.
+I am especially interested in turning research ideas into systems that can be **evaluated, optimized, and deployed in real environments**. My recent experience spans production anomaly detection at **TSMC**, browser-automation agents at **PEGATRON**, and real-time computer-vision deployment with **TensorRT at ITRI**. Across these roles, I have worked on problems ranging from time-series incident detection and job-queue monitoring to edge inference optimization and multimodal perception.
 
-### Research & engineering interests
+### Research & Engineering Focus
 
-- **Multimodal AI / Computer Vision** — detection, tracking, image restoration, vision-language models
-- **Efficient AI Systems** — TensorRT, edge deployment, real-time inference optimization
-- **AI Agents** — tool-calling LLMs, browser automation, workflow design
-- **Time Series & Anomaly Detection** — database incidents, job queues, visual defect detection
+- **Multimodal AI & Computer Vision** — detection, tracking, image restoration, vision-language models, and real-time video understanding
+- **Efficient AI Systems** — TensorRT optimization, edge deployment, model acceleration, and production inference pipelines
+- **AI Agents** — tool-calling LLMs, browser automation, reusable agent skills, workflow design, and evaluation
+- **Time Series & Anomaly Detection** — database incidents, job-dispatch / queue anomalies, and visual defect detection
 
-### Highlights
+### Selected Highlights
 
-- Deployed a job-dispatching / queue anomaly detection system to production at TSMC, reaching **97% detection accuracy** with no false-positive alerts on the reported test set.
-- Optimized RF-DETR on Jetson Orin with TensorRT FP16, achieving **7.50× end-to-end throughput** and **75.2% lower latency** while preserving detection accuracy.
-- Published work at **CVPR Workshops 2025 (SyntaGen)** and **IEEE ICS 2024**.
-- Co-inventor of **Taiwan Invention Patent I912159**, *Social Activity Level Detection System and Method*. [Patent record](https://patents.google.com/patent/TWI912159B/en)
+- At **TSMC**, built an Oracle Database anomaly-detection pipeline and deployed a job-dispatch / queue anomaly-detection system to production, achieving **97% detection accuracy** with **zero false-positive alerts** on the test set.
+- At **ITRI**, optimized **RF-DETR on Jetson Orin with TensorRT FP16**, reaching **7.50× end-to-end throughput**, **4.03× model-only inference speedup**, and **75.2% lower latency** while maintaining near-identical detection accuracy.
+- At **PEGATRON**, packaged browser-automation agents into reusable skills for tool-using LLM and agent workflows, with retry, error-handling, and evaluation mechanisms.
+- Research outputs include **CVPR Workshops 2025 (SyntaGen)**, a **first-author IEEE ICS 2024** paper, and Taiwan Invention Patent **I912159**, *Social Activity Level Detection System and Method*.
 
-[View my full CV]({{ '/cv/' | relative_url }})
+[Explore my experience]({{ '/experience/' | relative_url }}) · [Publications & Patent]({{ '/publications/' | relative_url }}) · [View my CV]({{ '/cv/' | relative_url }})
