@@ -11,32 +11,26 @@ layout: default
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
-  </header>
 
-  <article>
     {% if page.profile %}
-      <div
-        class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}"
-        style="width: 200px; max-width: 100%;"
-      >
+      <div class="profile-heading-photo">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: '/assets/img/' %}
           <img
-            src="{{ profile_image_path | relative_url }}?v=20260917c"
-            class="img-fluid {% if page.profile.image_circular %}rounded-circle{% else %}rounded{% endif %}"
-            width="200"
-            height="auto"
+            src="{{ profile_image_path | relative_url }}?v=20260917d"
+            class="{% if page.profile.image_circular %}rounded-circle{% else %}rounded{% endif %}"
             alt="Kuan-Wu Chu"
             loading="eager"
             fetchpriority="high"
             decoding="sync"
-            style="display:block; width:200px; max-width:100%; height:auto; object-fit:contain;"
           >
         {% endif %}
         {% if page.profile.more_info %}<div class="more-info">{{ page.profile.more_info }}</div>{% endif %}
       </div>
     {% endif %}
+  </header>
 
+  <article>
     <div class="clearfix">{{ content }}</div>
 
     {% if page.announcements and page.announcements.enabled %}
