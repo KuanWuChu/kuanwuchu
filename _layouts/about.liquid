@@ -8,10 +8,10 @@ layout: default
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: '/assets/img/' %}
           <img
-            src="{{ profile_image_path | relative_url }}?v=20260918a"
+            src="{{ profile_image_path | relative_url }}?v=20260918b"
             class="{% if page.profile.image_circular %}rounded-circle{% else %}rounded{% endif %}"
-            width="420"
-            height="540"
+            width="300"
+            height="375"
             alt="Kuan-Wu Chu"
             loading="eager"
             fetchpriority="high"
@@ -53,12 +53,8 @@ layout: default
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
-        <div class="contact-note">{{ page.contact_note | default: site.contact_note }}</div>
+        <div class="contact-note">{{ site.contact_note }}</div>
       </div>
-    {% endif %}
-
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
     {% endif %}
   </article>
 </div>
