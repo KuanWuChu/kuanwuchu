@@ -17,20 +17,20 @@ layout: default
     {% if page.profile %}
       <div
         class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}"
-        style="width: 220px; max-width: 100%;"
+        style="width: 200px; max-width: 100%;"
       >
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: '/assets/img/' %}
           <img
-            src="{{ profile_image_path | relative_url }}?v=20260917a"
+            src="{{ profile_image_path | relative_url }}?v=20260917c"
             class="img-fluid {% if page.profile.image_circular %}rounded-circle{% else %}rounded{% endif %}"
-            width="220"
+            width="200"
             height="auto"
             alt="Kuan-Wu Chu"
             loading="eager"
             fetchpriority="high"
             decoding="sync"
-            style="display:block; width:220px; max-width:100%; height:auto; object-fit:contain; image-rendering:auto; image-rendering:-webkit-optimize-contrast;"
+            style="display:block; width:200px; max-width:100%; height:auto; object-fit:contain;"
           >
         {% endif %}
         {% if page.profile.more_info %}<div class="more-info">{{ page.profile.more_info }}</div>{% endif %}

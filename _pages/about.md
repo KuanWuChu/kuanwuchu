@@ -8,7 +8,7 @@ translation_url: /zh-tw/
 subtitle: M.S. Candidate in Computer Science at NCCU · Multimodal AI · Computer Vision · AI Systems
 profile:
   align: right
-  image: kuanwu_chu_graduation.jpg
+  image: kuanwu_chu_profile.webp
   image_circular: false
 selected_papers: false
 social: true

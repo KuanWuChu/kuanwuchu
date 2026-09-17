@@ -9,7 +9,7 @@ subtitle: 國立政治大學資訊科學研究所碩士生 · 多模態 AI · �
 contact_note: 歡迎研究合作，以及多模態 AI、電腦視覺、AI 系統與高效率模型部署相關機會。
 profile:
   align: right
-  image: kuanwu_chu_graduation.jpg
+  image: kuanwu_chu_profile.webp
   image_circular: false
 selected_papers: false
 social: true
