@@ -196,7 +196,7 @@ ul.task-list input[type="checkbox"] {
 // Profile
 
 .profile-heading-photo {
-  margin: 0.6rem 0 1rem;
+  margin: 0 0 0.75rem;
   text-align: left;
 
   img {
@@ -215,12 +215,12 @@ ul.task-list input[type="checkbox"] {
 
 @media (max-width: 575.98px) {
   .profile-heading-photo {
-    margin: 0.45rem auto 0.9rem;
-    text-align: center;
+    margin: 0 0 0.65rem;
+    text-align: left;
 
     img {
       width: 88px;
-      margin: 0 auto;
+      margin: 0;
     }
   }
 }
